@@ -1,0 +1,62 @@
+{
+    "flows": [
+        {
+            "id": 0,
+            "packets": [
+                {
+                    "id": 1,
+                    "real_finish_time": 2.0,
+                    "virtual_finish_time": 2.0
+                },
+                {
+                    "id": 2,
+                    "real_finish_time": 5.0,
+                    "virtual_finish_time": 5.0
+                },
+                {
+                    "id": 3,
+                    "real_finish_time": 11.0,
+                    "virtual_finish_time": 11.0
+                }
+            ],
+            "weight": 1.0
+        },
+        {
+            "id": 1,
+            "packets": [
+                {
+                    "id": 1,
+                    "real_finish_time": 6.0,
+                    "virtual_finish_time": 6.0
+                },
+                {
+                    "id": 2,
+                    "real_finish_time": 9.0,
+                    "virtual_finish_time": 9.0
+                }
+            ],
+            "weight": 1.0
+        },
+        {
+            "id": 2,
+            "packets": [
+                {
+                    "id": 1,
+                    "real_finish_time": 3.0,
+                    "virtual_finish_time": 3.0
+                },
+                {
+                    "id": 2,
+                    "real_finish_time": 4.0,
+                    "virtual_finish_time": 4.0
+                },
+                {
+                    "id": 3,
+                    "real_finish_time": 10.0,
+                    "virtual_finish_time": 10.0
+                }
+            ],
+            "weight": 1.0
+        }
+    ]
+}

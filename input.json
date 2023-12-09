@@ -1,0 +1,35 @@
+{
+    "bandwidth": 1,
+     "flows": [
+         {
+             "id": 0,
+             "weight": 1,
+             "packets": [
+                 {"id": 1, "arrival_time": 0, "size": 2},
+                 {"id": 2, "arrival_time": 1, "size": 3},
+                 {"id": 3, "arrival_time": 2, "size": 6}
+             ]
+         },
+         {
+             "id": 1,
+             "weight": 1,
+             "packets": [
+                 {"id": 1, "arrival_time": 0, "size": 6},
+                 {"id": 2, "arrival_time": 1, "size": 3}
+             ]
+         },
+         {
+            "id": 2,
+            "weight": 1.0,
+            "packets": [
+                {"id": 1, "arrival_time": 0, "size": 3},
+                {"id": 2, "arrival_time": 1, "size": 1},
+                {"id": 3, "arrival_time": 2, "size": 6}
+            ]
+        }
+     ]
+ }
+
+ 
+
+ 
